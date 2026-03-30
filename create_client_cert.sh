@@ -3,7 +3,7 @@
 hr="-------------------------------------------"
 br=""
 strength=2048
-valid=365	
+valid=3650
 
 message="Usage:  sh create_client_cert.sh [client name] [PKCS12 password]"
 

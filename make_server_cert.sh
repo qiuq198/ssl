@@ -3,7 +3,7 @@
 hr="-------------------------------------------"
 br=""
 strength=2048
-valid=365	
+valid=3650
 
 message="Usage:  sh make_server_cert.sh [server name] [PKCS12 password]"
 

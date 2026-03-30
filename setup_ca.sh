@@ -3,7 +3,7 @@
 hr="-------------------------------------------"
 br=""
 strength=2048
-valid=365	
+valid=3650
 
 message="Usage:  sh setup_ca.sh [certificate authority CN]"
 

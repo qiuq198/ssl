@@ -39,7 +39,7 @@ echo "-------------------------------------------"
 
 # Import server certificate to JKS format
 keytool -import \
-  -alias $sname-server \
+  -alias $sname \
   -file server/$sname.cert.pem \
   -keystore client/$sname-truststore.jks \
   -storepass $password \
@@ -48,7 +48,7 @@ keytool -import \
 if [ $? -eq 0 ]; then
     echo "-------------------------------------------"
     echo "Successfully created JKS truststore: client/$sname-truststore.jks"
-    echo "Alias: $sname-server"
+    echo "Alias: $sname"
     echo "Certificate: server/$sname.cert.pem"
     echo "-------------------------------------------"
 else
